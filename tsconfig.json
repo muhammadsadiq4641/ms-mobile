@@ -1,0 +1,26 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.js",
+    "nativewind-env.d.js",
+    "hooks/useThemeColor.js",
+    "hooks/useColorScheme.web.js",
+    "hooks/useColorScheme.js",
+    "constants/Colors.js",
+    "components/ThemedView.jsx",
+    "components/ThemedText.jsx",
+    "components/ParallaxScrollView.jsx",
+    "components/HelloWave.jsx",
+    "components/ExternalLink.jsx",
+    "components/Collapsible.jsx"
+  ]
+}
